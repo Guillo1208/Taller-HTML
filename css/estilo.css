@@ -91,3 +91,56 @@ body{
     display: grid;
     align-self:center;
   }
+
+  .estilo2-body{
+    background-color: rgb(253, 206, 206);
+  }
+  .estilo2-header{
+    background-color: rgb(250, 167, 167);
+  }
+  .estilo2-footer{
+    background-color: rgb(250, 167, 167);
+  }
+
+  .estilo3-body{
+    background-color:rgb(218, 250, 225)
+  }
+  .estilo3-header{
+    background-color:rgb(120, 252, 138)
+  }
+  .estilo3-footer{
+    background-color:rgb(120, 252, 138)
+  }
+  .estilo1-body{
+    background-color:rgb(220, 251, 253);
+  }
+  .estilo1-header{
+    background-color: rgb(186, 224, 250);
+  }
+  .estilo1-footer{
+    background-color: rgb(186, 224, 250);
+  }
+
+  #verde{
+    cursor: pointer;
+    background-color: rgb(66, 252, 91);
+  }
+  #rojo{
+    cursor: pointer;
+    background-color: brown;
+  }
+  #inicio{
+    cursor: pointer;
+    background-color: powderblue;
+  }
+  
+  .ocultar{
+    display: block;
+  }
+
+  .mostrar{
+    display: none;    
+  }
+  .enlace{
+    cursor: pointer;
+  }

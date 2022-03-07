@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="StyleSheet" href="css/estilo.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');</style>
-    
+    <script src="js/estilo.js"></script>
     <title>experiencia laboral</title>
 </head>
 <body>
@@ -22,7 +22,8 @@
     
     <main>
         <section>
-            <article>
+            <dd>EXPERIENCIA 1</dd>
+            <article id="ocultar1" class="ocultar">
                 <p>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">EMPRESA : </b>KONECTA<br>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">CIUDAD : </b>Monteria<br>
@@ -33,7 +34,8 @@
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">TELEFONO : </b>7352834<br>
                 </p>  
             </article>
-            <article>
+            <dd>EXPERIENCIA 2</dd>
+            <article id="ocultar2" class="ocultar">
                 <p>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">EMPRESA : </b>UNICOR<br>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">CIUDAD : </b>Monteria<br>
@@ -44,7 +46,8 @@
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">TELEFONO : </b>7862341<br>
                 </p>  
             </article>
-            <article>
+            <dd>EXPERIENCIA 3</dd>
+            <article id="ocultar3" class="ocultar">
                 <p>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">EMPRESA : </b>UNION EXPREX<br>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">CIUDAD : </b>Monteria<br>
@@ -55,7 +58,8 @@
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">TELEFONO : </b>7493827<br>
                 </p>
             </article>
-            <article>
+            <dd>EXPERIENCIA 4</dd>
+            <article id="ocultar4" class="ocultar">
                 <p>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">EMPRESA : </b>DELICIAS DEL CAMPO<br>
                     <b style=" color: rgb(252, 4, 4); font-size: 1.0em">CIUDAD : </b>Monteria<br>
@@ -68,6 +72,10 @@
             </article>
         </section>
         <aside>
+            <a class="enlace" onclick="mostrar('ocultar1')">Ocular o Mostrar experiencia 1</a>
+            <a class="enlace" onclick="mostrar('ocultar2')">Ocular o Mostrar experiencia 2</a>
+            <a class="enlace" onclick="mostrar('ocultar3')">Ocular o Mostrar experiencia 3</a>
+            <a class="enlace" onclick="mostrar('ocultar4')">Ocular o Mostrar experiencia 4</a>
             <a class="enlace" href="doc/Hoja De Vida Guillermo.pdf"> DESCARGA HOJA DE VIDA</a>
         </aside>
     </main>
